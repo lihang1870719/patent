@@ -1,0 +1,24 @@
+{
+	"connection": {
+		"host":       "localhost:1433",
+		"database":   "patent",
+		"user":       "sa",
+		"password":   "sa_123"
+	},
+	"getData": {
+		"num":      1000,
+		"matcher":  "380"
+	},
+	"type": {
+		"claim": "claim",
+		"abstract": "abstract",
+		"description": "description"
+	},
+	"dataTable": {
+		"patent":         "dbo.patent_2013",
+		"classification": "dbo.classification_2013",
+		"claim":          "dbo.wordparse_claim_2013_380",
+		"abstract":       "dbo.wordparse_abstract_2013_380",
+		"description":    "dbo.wordparse_description_2013_380"
+	}
+}
