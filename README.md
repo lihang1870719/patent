@@ -27,7 +27,7 @@ Mainly analyze xml and do some segmentations
   核心类，利用单词树进行词频统计，目的是优化性能，将时间复杂度降到O（m）
   
   <img
-  src="https://github.com/lihang1870719/patent/blob/master/charTree.jpg" alt="charTree.jpg" title="charTree" width="200"/>
+  src="https://github.com/lihang1870719/patent/blob/master/charTree.jpg" alt="charTree.jpg" title="charTree" width="400"/>
 
   主要和核心思想：
 1.
